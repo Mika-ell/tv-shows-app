@@ -15,19 +15,36 @@ background-color: white;
 border-radius: 20px;
 }
 .Navigation{
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  align-items: center;
 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Show{
+  display: block;
+  width: 200px;
+  border: 2px;
+  margin: 10px;
 }
+
+
+
+
+
+
 
 .Header {
   background-color: salmon;
   width: 100%;
   display: flex;
   justify-content: space-between;
-}
+  padding: 10px;
+} 
 
+.ShowList{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+
+} 
