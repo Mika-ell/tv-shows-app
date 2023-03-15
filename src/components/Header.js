@@ -1,12 +1,21 @@
+import { Link } from "react-router-dom"
+
 function Header() {
     return (
 <div className="Header">
     <div className="Logo"></div>
-    <div className="Navigation">
-        <a href="/">Home</a>
-        <a href="/favorites">Favorites</a>
-        <a href="/upcoming">upcoming</a>
-    </div>
+
+    <ul className="Navigation">
+        <li>
+        <Link to="/">Home</Link>
+        </li>
+        <li>
+        <Link to="/Favorites">Favorites</Link>
+        </li>
+        <li>
+        <Link to="/Upcoming">Upcoming</Link>
+        </li>
+    </ul>
     <div className="Search"></div>
 </div>
 

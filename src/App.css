@@ -19,7 +19,8 @@ border-radius: 20px;
   font-weight: bold;
   padding: 10px;
   align-items: center;
-
+  display: flex;
+  gap: 30px;
 }
 
 .Show{
