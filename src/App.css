@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  width: 100%;
 }
 
 .Logo {
@@ -9,28 +10,33 @@
 }
 
 .Search {
-width: 100ox;
+width: 150px;
 height: 50px;
 background-color: white;
 border-radius: 20px;
 }
-.Navigation{
+.Navigation {
   color: white;
   font-weight: bold;
   padding: 10px;
   align-items: center;
   display: flex;
   gap: 30px;
+  list-style-type: none;
 }
 
-.Show{
+.Show {
   display: block;
   width: 200px;
-  border: 2px;
+  border: 2px solid block;
   margin: 10px;
+  border-radius: 15px;
+  
 }
 
-
+.show-image {
+  width: 100px;
+}
 
 
 
@@ -44,8 +50,7 @@ border-radius: 20px;
   padding: 10px;
 } 
 
-.ShowList{
+.ShowList {
   display: grid;
   grid-template-columns: repeat(4,1fr);
-
 } 
